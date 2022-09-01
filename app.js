@@ -26,6 +26,7 @@ app.use('/rubros',rutasRubros);
 const history = require('connect-history-api-fallback');
 app.use(history());
 app.use(express.static(path.join(__dirname,'public')));   
+//khvjv
 
 app.set('puerto', process.env.PORT || 3001);
 
